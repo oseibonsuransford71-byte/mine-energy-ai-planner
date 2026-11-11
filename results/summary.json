@@ -1,0 +1,297 @@
+{
+  "data": {
+    "weather_source": "simulated (physics-based Markov cloud model)",
+    "hours": 26280,
+    "period": [
+      "2021-01-01 00:00:00",
+      "2023-12-31 23:00:00"
+    ],
+    "ghi_kwh_m2_day": 4.74,
+    "pv_specific_yield_kwh_kwp_yr": 1362.0,
+    "load_mean_mw": 15.27,
+    "load_peak_mw": 18.7,
+    "load_gwh_yr": 133.8
+  },
+  "forecast_solar": [
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 1,
+      "model": "Climatology",
+      "MAE": 140.0191,
+      "RMSE": 178.0059,
+      "nMAE_%": 35.0008,
+      "nRMSE_%": 44.4964,
+      "bias": 17.757,
+      "skill_vs_persistence": -2.7297
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 1,
+      "model": "Smart persistence",
+      "MAE": 31.6813,
+      "RMSE": 47.7261,
+      "nMAE_%": 7.9194,
+      "nRMSE_%": 11.9302,
+      "bias": 0.3052,
+      "skill_vs_persistence": 0.0
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 1,
+      "model": "Ridge",
+      "MAE": 32.5019,
+      "RMSE": 47.9154,
+      "nMAE_%": 8.1245,
+      "nRMSE_%": 11.9775,
+      "bias": 1.9967,
+      "skill_vs_persistence": -0.004
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 1,
+      "model": "Gradient boosting",
+      "MAE": 31.8825,
+      "RMSE": 47.4894,
+      "nMAE_%": 7.9697,
+      "nRMSE_%": 11.871,
+      "bias": 1.141,
+      "skill_vs_persistence": 0.005
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 6,
+      "model": "Climatology",
+      "MAE": 140.0191,
+      "RMSE": 178.0059,
+      "nMAE_%": 35.0008,
+      "nRMSE_%": 44.4964,
+      "bias": 17.757,
+      "skill_vs_persistence": -0.1644
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 6,
+      "model": "Smart persistence",
+      "MAE": 93.8948,
+      "RMSE": 152.88,
+      "nMAE_%": 23.471,
+      "nRMSE_%": 38.2157,
+      "bias": 0.6673,
+      "skill_vs_persistence": 0.0
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 6,
+      "model": "Ridge",
+      "MAE": 86.8374,
+      "RMSE": 127.1133,
+      "nMAE_%": 21.7069,
+      "nRMSE_%": 31.7747,
+      "bias": 5.749,
+      "skill_vs_persistence": 0.1685
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 6,
+      "model": "Gradient boosting",
+      "MAE": 80.0874,
+      "RMSE": 117.834,
+      "nMAE_%": 20.0196,
+      "nRMSE_%": 29.4551,
+      "bias": 4.7967,
+      "skill_vs_persistence": 0.2292
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 24,
+      "model": "Climatology",
+      "MAE": 140.0589,
+      "RMSE": 178.0382,
+      "nMAE_%": 35.0107,
+      "nRMSE_%": 44.5045,
+      "bias": 17.6861,
+      "skill_vs_persistence": 0.0566
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 24,
+      "model": "Smart persistence",
+      "MAE": 120.2609,
+      "RMSE": 188.7101,
+      "nMAE_%": 30.0618,
+      "nRMSE_%": 47.1722,
+      "bias": 0.5141,
+      "skill_vs_persistence": 0.0
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 24,
+      "model": "Ridge",
+      "MAE": 115.7684,
+      "RMSE": 157.8432,
+      "nMAE_%": 28.9388,
+      "nRMSE_%": 39.4563,
+      "bias": 9.5146,
+      "skill_vs_persistence": 0.1636
+    },
+    {
+      "target": "GHI (W/m2)",
+      "horizon_h": 24,
+      "model": "Gradient boosting",
+      "MAE": 127.1165,
+      "RMSE": 174.0497,
+      "nMAE_%": 31.7755,
+      "nRMSE_%": 43.5075,
+      "bias": 8.1651,
+      "skill_vs_persistence": 0.0777
+    }
+  ],
+  "forecast_load": [
+    {
+      "target": "Load (MW)",
+      "horizon_h": 24,
+      "model": "Same hour yesterday",
+      "MAE": 1.1011,
+      "RMSE": 3.1148,
+      "nMAE_%": 7.239,
+      "nRMSE_%": 20.478,
+      "bias": 0.0012,
+      "skill_vs_persistence": 0.0
+    },
+    {
+      "target": "Load (MW)",
+      "horizon_h": 24,
+      "model": "Same hour last week",
+      "MAE": 1.2732,
+      "RMSE": 3.3109,
+      "nMAE_%": 8.3705,
+      "nRMSE_%": 21.7676,
+      "bias": -0.0057,
+      "skill_vs_persistence": -0.063
+    },
+    {
+      "target": "Load (MW)",
+      "horizon_h": 24,
+      "model": "Ridge",
+      "MAE": 0.9629,
+      "RMSE": 2.3511,
+      "nMAE_%": 6.3305,
+      "nRMSE_%": 15.4572,
+      "bias": 0.047,
+      "skill_vs_persistence": 0.2452
+    },
+    {
+      "target": "Load (MW)",
+      "horizon_h": 24,
+      "model": "Gradient boosting",
+      "MAE": 1.0037,
+      "RMSE": 2.4305,
+      "nMAE_%": 6.599,
+      "nRMSE_%": 15.9791,
+      "bias": 0.1025,
+      "skill_vs_persistence": 0.2197
+    }
+  ],
+  "interval_coverage": [
+    {
+      "horizon_h": 1,
+      "nominal_%": 80.0,
+      "raw_quantile_%": 74.62,
+      "conformal_%": 80.46,
+      "conformal_width_Wm2": 99.36
+    },
+    {
+      "horizon_h": 6,
+      "nominal_%": 80.0,
+      "raw_quantile_%": 64.09,
+      "conformal_%": 81.73,
+      "conformal_width_Wm2": 250.34
+    },
+    {
+      "horizon_h": 24,
+      "nominal_%": 80.0,
+      "raw_quantile_%": 58.42,
+      "conformal_%": 83.15,
+      "conformal_width_Wm2": 360.37
+    }
+  ],
+  "diesel_only": {
+    "fuel_ml_yr": 46.89,
+    "annual_cost_musd": 49.57,
+    "cost_usd_mwh": 370.5,
+    "co2_kt_yr": 125.7
+  },
+  "cost_optimal": {
+    "pv_mwp": 80.0,
+    "bess_mwh": 180.0,
+    "ren_fraction": 0.6102,
+    "curtail_fraction": 0.21,
+    "batt_cycles": 262.1574,
+    "payback_yr": 4.0725,
+    "capex": 114400000.0,
+    "total": 35923269.3566,
+    "saving_usd_yr": 13643455.8985,
+    "lcoe_usd_mwh": 268.4835,
+    "co2_avoided_t": 76182.352
+  },
+  "phase1": {
+    "pv_mwp": 50.0,
+    "bess_mwh": 60.0,
+    "ren_fraction": 0.3848,
+    "curtail_fraction": 0.2226,
+    "batt_cycles": 259.5141,
+    "payback_yr": 3.15,
+    "capex": 56800000.0,
+    "total": 38407489.8133,
+    "saving_usd_yr": 11159235.4418,
+    "lcoe_usd_mwh": 287.05,
+    "co2_avoided_t": 48073.4985
+  },
+  "forecast_value": [
+    {
+      "scenario": "Oracle (perfect foresight)",
+      "fuel_ml_per_yr": 29.6567,
+      "under_commit_hours": 0,
+      "over_commit_mwh": 7646.0,
+      "plan_rmse_mw": 0.0,
+      "excess_vs_oracle_ml": 0.0,
+      "excess_vs_oracle_kusd": 0.0
+    },
+    {
+      "scenario": "ML forecast (gradient boosting)",
+      "fuel_ml_per_yr": 29.8527,
+      "under_commit_hours": 1365,
+      "over_commit_mwh": 9976.0,
+      "plan_rmse_mw": 3.2855,
+      "excess_vs_oracle_ml": 0.1961,
+      "excess_vs_oracle_kusd": 196.0695
+    },
+    {
+      "scenario": "ML forecast (ridge)",
+      "fuel_ml_per_yr": 29.6887,
+      "under_commit_hours": 1423,
+      "over_commit_mwh": 8026.0,
+      "plan_rmse_mw": 3.1824,
+      "excess_vs_oracle_ml": 0.032,
+      "excess_vs_oracle_kusd": 31.977
+    },
+    {
+      "scenario": "Persistence (same hour yesterday)",
+      "fuel_ml_per_yr": 30.2304,
+      "under_commit_hours": 984,
+      "over_commit_mwh": 14464.0,
+      "plan_rmse_mw": 3.5016,
+      "excess_vs_oracle_ml": 0.5737,
+      "excess_vs_oracle_kusd": 573.7347
+    },
+    {
+      "scenario": "No forecast (assume zero solar)",
+      "fuel_ml_per_yr": 35.0583,
+      "under_commit_hours": 232,
+      "over_commit_mwh": 71836.0,
+      "plan_rmse_mw": 8.0308,
+      "excess_vs_oracle_ml": 5.4016,
+      "excess_vs_oracle_kusd": 5401.5885
+    }
+  ]
+}

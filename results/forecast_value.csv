@@ -1,0 +1,6 @@
+scenario,fuel_ml_per_yr,under_commit_hours,over_commit_mwh,plan_rmse_mw,excess_vs_oracle_ml,excess_vs_oracle_kusd
+Oracle (perfect foresight),29.6567,0,7646.0,0.0,0.0,0.0
+ML forecast (gradient boosting),29.8527,1365,9976.0,3.2855,0.1961,196.0695
+ML forecast (ridge),29.6887,1423,8026.0,3.1824,0.032,31.977
+Persistence (same hour yesterday),30.2304,984,14464.0,3.5016,0.5737,573.7347
+No forecast (assume zero solar),35.0583,232,71836.0,8.0308,5.4016,5401.5885

@@ -1,0 +1,5 @@
+target,horizon_h,model,MAE,RMSE,nMAE_%,nRMSE_%,bias,skill_vs_persistence
+Load (MW),24,Same hour yesterday,1.1011,3.1148,7.239,20.478,0.0012,0.0
+Load (MW),24,Same hour last week,1.2732,3.3109,8.3705,21.7676,-0.0057,-0.063
+Load (MW),24,Ridge,0.9629,2.3511,6.3305,15.4572,0.047,0.2452
+Load (MW),24,Gradient boosting,1.0037,2.4305,6.599,15.9791,0.1025,0.2197
